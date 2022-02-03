@@ -1,0 +1,180 @@
+.a1{
+    width: 200px;
+   position: relative;
+   right: 210px;
+   top: 78px;
+}
+.b1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    top: 45px;
+}
+.c1{
+    width: 200px;
+    position: relative;
+    right: -200px;
+    top: 20px;
+    
+}
+
+.d1{
+    display: inline-block;
+    color: red;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 130px;
+    left: 700px;
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: white;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+}
+.e1{
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid red;
+    padding: 20px 20px 150px 20px;
+    margin-left: 300px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 50px;
+    box-shadow: 5px 5px 5px gray;
+    position: relative;
+    left: 230px;
+    top: 120px;
+    right: 100px;
+    text-align: center;
+    width: 220px;
+}
+.f1{
+    color: red;
+}
+.g1{
+    color: red;
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+.icon{
+    position: relative;
+    right: 300px;
+    top: 150px;
+    font-size: 50px;
+}
+
+
+
+
+
+.task{
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 350px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    /* position: relative;
+    left: 70px; */
+}
+.list{
+    display: inline-block;
+    font-size: 30px;
+}
+span{
+    padding-left: 500px;
+    size: 60px;
+    color: red;
+    font-family: sans-serif;
+   
+}
+.a{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+.b{
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid red;
+    padding: 20px 20px 150px 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 50px;
+    box-shadow: 5px 5px 5px gray;
+   
+}
+.c{
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: center;
+}
+.d{
+    color: red;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+.e{
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid red;
+    padding: 20px 20px 150px 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 170px;
+    box-shadow: 5px 5px 5px gray;
+}
+.f{
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.g{
+    color: red;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+.h{
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid red;
+    padding: 20px 20px 150px 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 140px;
+    position: relative;
+    left: 750px;
+    bottom: 375px;
+    right: 50px;
+    box-shadow: 5px 5px 5px gray;
+}
+.i{
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.j{
+    color: red;
+    font-family: sans-serif;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: none;
+}
+
+
