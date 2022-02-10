@@ -1,0 +1,150 @@
+body{
+    background: rgb(255, 255, 145);
+}
+h3{
+    text-align: center;
+}
+.aref{
+    text-align: center;
+}
+
+ol{
+   padding-left: 23rem;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+.row1 {
+    display: inline-block;
+    background-color: rgb(126, 191, 207);
+    animation-name: firstrow;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes firstrow{
+0%{
+    transform: skew(-30deg);
+}
+100%{
+    transform: skew(30deg);
+} 
+}
+.row2{
+    display: inline-block;
+    background-color: grey;
+    animation-name: secondrow;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: skew(0,25deg);
+}
+@keyframes secondrow{
+
+50%{
+    transform: skew(0,-25deg);}
+
+}
+.row3{
+    display: inline-block;
+    background-color: rgb(212, 126, 156);
+    animation-name: thirdrow;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* transform: skew(0,25deg); */
+}
+@keyframes thirdrow{
+0%{
+transform: rotate(0deg);
+}
+25%{
+    transform: rotate(90deg);
+}
+50%{
+    transform: rotate(180deg);
+}
+75%{
+    transform: rotate(270deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+
+.row4{
+    display: inline-block;
+    background-color: rgb(214, 90, 177);
+    animation-name: firstbox;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes firstbox{
+    0% {
+        transform: scaley(0.5);
+    }
+    
+    50% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaley(0.5);
+    }
+}
+.row5{
+    display: inline-block;
+    background-color: rgb(105, 32, 32);
+    animation-name: secondbox;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes secondbox{
+    50%{
+        width: 75px;
+    }
+    100%{
+        width: 150px;
+    }
+}
+
+.row6{
+    display: inline-block;
+    background-color: rgb(86, 165, 55);
+    animation-name: thirdbox;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+@keyframes thirdbox{
+    0%{
+    transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    }

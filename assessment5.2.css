@@ -1,0 +1,71 @@
+html{
+    background: rgb(219, 219, 77);
+}
+h3{
+    text-align: center;
+}
+.aref{
+    text-align: center;
+}
+
+ol{
+   padding-left: 33rem;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+#box1{
+    background: red;
+    transition: 2s;
+}
+#box1:hover{
+    width: 300px;
+}
+#box2{
+    background: tomato;
+    transition: 2s;
+}
+#box2:hover{
+    width: 300px;
+    height: 300px;
+}
+#box3{
+    background: rgb(71, 207, 36);
+    transition: 2s linear;
+}
+#box3:hover{
+    width: 300px;
+}
+#box4{
+    background: rgb(21, 80, 6);
+    transition: 2s ease;
+}
+#box4:hover{
+    width: 300px;
+}
+#box5{
+    background: rgb(55, 53, 199);
+    transition: 2s ease-in;
+}
+#box5:hover{
+    width: 300px;
+}
+#box6{
+    background: rgb(64, 229, 235);
+    transition: 2s ease-out;
+}
+#box6:hover{
+    width: 300px;
+}
+#box7{
+    background: rgb(141, 15, 130);
+    transition: 2s ease-in-out;
+}
+#box7:hover{
+    width: 300px;
+}
+
+
+
