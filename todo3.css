@@ -119,4 +119,96 @@
       border-color: red;
       
   }
+  @media screen and (max-width:480px)
+  {
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto;
+    }
+   .add{
+     display: none;
+   }
+    .list{
+      position: absolute;
+      left: 150px;
+      top: 45px;
+    }
+    .task{
+      position: absolute;
+      left: 30px;
+      top: 30px;
+    }
+    .griditem3{
+      border: 2px solid red;
+      width: 300px;
+      height: 10px;
+      font-size: 15px;
+      position: absolute;
+      right: 30px;
+      top: 100px;
+    }
+    .griditem2{
+      position: absolute;
+      right: 30px;
+      top: 60px;
+    }
+    a{
+      color: gray;
+    }
+    .todo{
+      color: gray;
+    }
+    .com{
+      display: none;
+    }
+    form{
+      display: none;
+    }
+    hr{
+      display: none;
+    }
+    .griditem4{
+      border: 2px solid red;
+      width: 300px;
+      height: 10px;
+      position: absolute;
+      right: 30px;
+      top: 200px;
+    }
+    .griditem5{
+      border: 2px solid red;
+      width: 300px;
+      height: 10px;
+      position: absolute;
+      right: 30px;
+      top: 300px;
+    }
+    .griditem6{
+      visibility: visible;
+      border: 2px solid red;
+      width: 300px;
+      height: 10px;
+      position: absolute;
+      right: 30px;
+      top: 400px;
+    }
+    .griditem7{
+      visibility: visible;
+      border: 2px solid red;
+      width: 300px;
+      height: 10px;
+      position: absolute;
+      right: 30px;
+      top: 500px;
+    }
+    .parent{
+      z-index: -1;
+      filter: blur(5px);
+    }
+    .todo3{
+      position: absolute;
+      right: 100px;
+    }
+
+  }
   
