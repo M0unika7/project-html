@@ -103,7 +103,7 @@
     display: grid;
     grid-template-columns: auto;
   }
- .griditem2{
+ .add{
    display: none;
  }
   .list{
