@@ -1,0 +1,122 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+  }
+  .griditem1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .task{
+    font-size: 40px;
+  }
+  .list{
+    color:  rgb(82, 80, 80);
+    font-size: 25px;
+  }
+  a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .add{
+    color: rgb(82, 80, 80);
+    font-size: 25px;
+  }
+  .todo{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .com{
+    text-decoration: line-through;
+    color: red;
+    font-size: 20px;
+  }
+  .griditem3{
+    display: inline-block;
+    border: 3px solid red;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    
+  }
+  .griditem4{
+    display: inline-block;
+    border: 3px solid red;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  .griditem5{
+    display: inline-block;
+    border: 3px solid red;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+  }
+  .griditem6{
+    display: inline-block;
+    border: 3px solid red;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    visibility: hidden;
+  }
+  .griditem7{
+    display: inline-block;
+    border: 3px solid red;
+    padding: 30px;
+    width: 200px;
+    height: 280px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    visibility: hidden;
+  }
+  .parent1{
+      z-index: -1;
+      filter: blur(5px);
+  }
+  .todo3{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 250px;
+      border-radius: 5px;
+      background-color: white;
+      position: relative;
+      bottom: 600px;
+      
+  }
+  .add3{
+      color: red;
+      font-size: 25px;
+  }
+  .text{
+      border-color: red;
+  }
+  .button{
+      color: white;
+      background-color: red;
+      border-radius: 3px;
+      border-color: red;
+      
+  }
+  

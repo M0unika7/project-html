@@ -1,0 +1,181 @@
+
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-left: 150px;
+      margin-top: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      gap: 20px;
+    }
+    .griditem1{
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .task{
+      font-size: 40px;
+    }
+    .list{
+      color:  rgb(82, 80, 80);
+      font-size: 25px;
+    }
+    a{
+      color: red;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .add{
+      color: rgb(82, 80, 80);
+      font-size: 25px;
+    }
+    .todo{
+      color: red;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .com{
+      text-decoration: line-through;
+      color: red;
+      font-size: 20px;
+    }
+    form{
+      font-size: 20px;
+    }
+    .griditem3{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 200px;
+      height: 280px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+      
+    }
+    .griditem4{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 200px;
+      height: 280px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+    }
+    .griditem5{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 200px;
+      height: 280px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+    }
+    .griditem6{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 200px;
+      height: 280px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+      visibility: hidden;
+    }
+    .griditem7{
+      display: inline-block;
+      border: 3px solid red;
+      padding: 30px;
+      width: 200px;
+      height: 280px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px gray;
+      visibility: hidden;
+    }
+
+   
+
+@media screen and (max-width:480px)
+{
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto;
+  }
+ .griditem2{
+   display: none;
+ }
+  .list{
+    position: absolute;
+    left: 150px;
+    top: 45px;
+  }
+  .task{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  .griditem3{
+    border: 2px solid red;
+    width: 300px;
+    height: 10px;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+  }
+  .griditem2{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+  }
+  a{
+    color: gray;
+  }
+  .todo{
+    color: gray;
+  }
+  .com{
+    display: none;
+  }
+  form{
+    display: none;
+  }
+  hr{
+    display: none;
+  }
+  .griditem4{
+    border: 2px solid red;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+  }
+  .griditem5{
+    border: 2px solid red;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    right: 30px;
+    top: 300px;
+  }
+  .griditem6{
+    visibility: visible;
+    border: 2px solid red;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    right: 30px;
+    top: 400px;
+  }
+  .griditem7{
+    visibility: visible;
+    border: 2px solid red;
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    right: 30px;
+    top: 500px;
+  }
+}

@@ -1,0 +1,57 @@
+.grid-container2{
+    grid-template-columns: auto;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line1{
+    width: 150px;
+    position: relative;
+    right: 170px;
+    top: 40px;
+}
+.line2{
+    width: 150px;
+    position: relative;
+    left: 175px;
+    bottom: 30px;
+}
+.trip1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.icon1{
+    font-size: 25px;
+    color: red;
+
+}
+a{
+    text-decoration: none;
+}
+.item2{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 30px;
+    width: 150px;
+    height: 250px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+.trip2{
+    color: red;
+    font-size: 25px;
+}
+.com2{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: red;
+}
+form{
+    font-size: 20px;
+}
+.icon2{
+    color: red;
+    position: relative;
+    top: 120px;
+    left: 90px;
+    text-decoration: none;
+}
