@@ -75,69 +75,7 @@ function settime(){
         document.getElementById("container6").innerText="Good Night !!";
     }    
     
-    function wakeup(){
-        let afterW=parseInt(wake)+1;
-        if(wake<12){
-           if(wake<11)
-            return wake+"AM - "+afterW+"AM"
-           else return wake+"AM - "+afterW+"PM" 
-        }
-        else{
-           afterW=afterW-12;
-           wake=wake-12;
-           if(wake<11)
-           return wake+"PM - "+afterW+"PM";
-           else return wake+"PM - "+afterW+"AM";
-        }
-     }
-  
-     function lunchup(){
-        let afterL=parseInt(lunch)+1;
-        if(lunch<12){
-           if(lunch<11)
-            return lunch+"AM - "+afterL+"AM"
-           else return lunch+"AM - "+afterL+"PM" 
-        }
-        else{
-           afterL=afterL-12;
-           lunch=lunch-12;
-           if(lunch<11)
-           return lunch+"PM - "+afterL+"PM";
-           else return lunch+"PM - "+afterL+"AM";
-        }
-     }
-  
-     function napup(){
-        let afterN=parseInt(nap)+1;
-        if(nap<12){
-           if(nap<11)
-            return nap+"AM - "+afterN+"AM";
-           else return nap+"AM - "+afterN+"PM"; 
-        }
-        else{
-           afterN=afterN-12;
-           nap=nap-12;
-           if(nap<11)
-           return nap+"PM - "+afterN+"PM";
-           else return nap+"PM - "+afterN+"AM";
-        }
-     }
-  
-     function nightup(){
-        let afternT=parseInt(night)+1;
-        if(night<12){
-           if(night<11)
-            return night+"AM - "+afternT+"AM"
-           else return night+"AM - "+afternT+"PM" 
-        }
-        else{
-           afternT=afternT-12;
-           night=night-12;
-           if(night<11)
-           return night+"PM - "+afternT+"PM";
-           else return night+"PM - "+afternT+"AM";
-        }
-     }
+    
      document.getElementById("wake").innerText=wakeup();
      document.getElementById("noon").innerText=lunchup();
      document.getElementById("nap").innerText=napup();
